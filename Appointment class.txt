@@ -1,0 +1,17 @@
+import java.util.Date;
+
+public class Appointment {
+    private int id;
+    private String patientUsername;
+    private String doctorUsername;
+    private Date appointmentDate;
+
+    public Appointment(int id, String patientUsername, String doctorUsername, Date appointmentDate) {
+        this.id = id;
+        this.patientUsername = patientUsername;
+        this.doctorUsername = doctorUsername;
+        this.appointmentDate = appointmentDate;
+    }
+
+    // Getters and setters
+}
